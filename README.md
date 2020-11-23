@@ -7,15 +7,11 @@ Project utilizes Transfer Learning to train a model to classify types of asphalt
 A description of the files and directory structure in the repository.
 ```bash
 org/repo/
-├── Folder/
-|     ├── 1. Sub Description One
-|     |     ├── file     
-│     |     ├── file 
-│     |     ├── file      
-|     |     └── file   
-|     |
-|     └── 2. Sub Description Two
-|          └── file
+├── Data Collection/
+|     ├── data_collection.md                          # description of folder contents
+|     ├── 01_downloading_images.ipynb                 # notebook for image downloads
+|     ├── 02_data_splitting.ipynb                     # notebook for train/test/validation splits
+|     └── 
 │
 ├── Folder/
 |     ├── 1. Sub Description One
@@ -39,10 +35,6 @@ org/repo/
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
 ```
-
-### Workflow Overview
-
-Th project uses X core information, manages it and passes our some stuff.
 
 ### System Requirements
 
