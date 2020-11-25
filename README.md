@@ -10,18 +10,13 @@ org/repo/
 ├── Data Collection/
 |     ├── data_collection.md                          # description of folder contents
 |     ├── 01_downloading_images.ipynb                 # notebook for image downloads
-|     ├── 02_data_splitting.ipynb                     # notebook for train/test/validation splits
-|     └── 
+|     └── 02_data_splitting.ipynb                     # notebook for train/test/validation splits
 │
-├── Folder/
-|     ├── 1. Sub Description One
-|     |     ├── file 
-│     |     ├── file
-│     |     ├── file
-|     |     └── file
-|     |      
-|     ├── 2. Sub Description Two
-│     |     └── file
+├── Model Selection and Tuning/
+|     ├── model_selection_and_tuning.md
+|     ├── 01_understanding_models.ipynb               # brief description of out-of-box models to be looked at
+|     ├── 02_model_comparision.ipynb                  # comparing out-of-box model performance
+|     ├── 03_hyperparameter_tuning.ipynb              # 
 |     |      
 |     └── 3. Folder
 |           ├── file
