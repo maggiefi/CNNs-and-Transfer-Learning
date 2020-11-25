@@ -8,7 +8,7 @@ A description of the files and directory structure in the repository.
 ```bash
 org/repo/
 ├── Data Collection/
-|     ├── data_collection.md                          # description of folder contents
+|     ├── folder_description.md                          # description of folder contents
 |     ├── 01_downloading_images.ipynb                 # notebook for image downloads
 |     └── 02_data_splitting.ipynb                     # notebook for train/test/validation splits
 │
