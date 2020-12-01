@@ -31,10 +31,9 @@ org/repo/
 │
 ├── Scripts/
 │     ├── folder_description.md
-│     ├── app.py                                      # deploy with streamlit
-│     ├── image_classification.py                     # perform predictions
-│     ├── load_css.py                                 # loading html formatting
-│     └── style.css                                   # formatting
+│     ├── performance_plots.py                          
+│     ├── 
+│     └── 
 |
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
