@@ -8,41 +8,35 @@ A description of the files and directory structure in the repository.
 ```bash
 org/repo/
 ├── Data Collection/
-|     ├── folder_description.md                          # description of folder contents
+|     ├── folder_description.md                       
 |     ├── 01_downloading_images.ipynb                 # notebook for image downloads
 |     └── 02_data_splitting.ipynb                     # notebook for train/test/validation splits
 │
 ├── Model Selection and Tuning/
-|     ├── model_selection_and_tuning.md
-|     ├── 01_understanding_models.ipynb               # brief description of out-of-box models to be looked at
+|     ├── folder_description.md
+|     ├── 01_understanding_models.ipynb               # notebook containing information on torchvision models
 |     ├── 02_model_comparision.ipynb                  # comparing out-of-box model performance
-|     ├── 03_hyperparameter_tuning.ipynb              # 
-|     |      
-|     └── 3. Folder
-|           ├── file
-|           └── file
+|     ├── 03_hyperparameter_tuning.ipynb              # notebook for skeleton of hyperparameter tuning
 │
-├── Folder/
-│     ├── file
-│     ├── file
-│     └── file
+├── Final Model/
+|     ├── folder_description.md
+|     └── 01_final_model.ipynb                        # final model training and saving of state_dict
 │
+├── Deployment Files/
+│     ├── folder_description.md                                     
+│     ├── app.py                                      # deploy with streamlit
+│     ├── image_classification.py                     # perform predictions
+│     ├── load_css.py                                 # loading html formatting
+│     └── style.css                                   # formatting
+│
+├── Scripts/
+│     ├── folder_description.md
+│     ├── app.py                                      # deploy with streamlit
+│     ├── image_classification.py                     # perform predictions
+│     ├── load_css.py                                 # loading html formatting
+│     └── style.css                                   # formatting
+|
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
 ```
 
-### System Requirements
-
-This project is developed using Python.  It runs on a MacIntosh system.  
-
-### Data Requirements
-
-The project pulls data from images.
-
-### Key Outputs
-
-This project generates an image classifer model 
-
-## Metrics
-
-This project is to be evaluated using the following metrics. . .
