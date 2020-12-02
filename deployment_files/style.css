@@ -1,0 +1,45 @@
+html { width: 100%; height:100%; overflow:hidden; }
+
+body {
+	width: 100%;
+	height:100%;
+	font-family: 'Arial';
+	background: #112431;
+	color: #1B848E;
+	font-size: 36px;
+	text-align:center;
+	letter-spacing:1.4px;
+
+}
+
+.bold {
+	padding-left: 1rem;
+	font-weight : 700;
+}
+.littleteal{
+	font-size: 30px;
+	color: #1B848E;
+}
+.blue {
+	font-size: 24px;
+	color: #33B8B5;
+}
+.white {
+	font-size: 24px;
+	color: #FCF9EB;
+}
+.coral {
+	font-size: 24px;
+	color: #E1896D;
+}
+.bigcoral {
+	font-size: 36px;
+	color: #E1896D;
+}
+.stButton>button {
+	background-color: #E1896D;
+	font-size: 22px;
+	color: #1B848E;
+	height: 4em;
+	width: 8em;
+}
